@@ -1,0 +1,77 @@
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+.nav-list {
+	background-color: rgb(0, 0, 0);
+	margin: 0;
+	padding: 2rem 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-items {
+	list-style: none;
+	margin-right: 5rem;
+	color: #ffffff;
+	font-size: 1.75em
+}
+
+.nav-items a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-items:first-child {
+	margin-right: auto;
+	margin-left: 2rem;
+}
+
+.nav-btn {
+	font-size: 2rem;
+	background: rgb(165, 117, 210);
+	border: none;
+	outline: none;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+}
+
+.nav-btn:hover {
+	background-color: #80ffff;
+	color: #000000;
+}
+
+.nav-items a:hover {
+	color: blueviolet;
+}
+.hello img{
+	position: absolute;
+ 	height: auto;
+ 	left: 70px;
+ 	width: 100px;
+}
+.btn{
+	background-color: transparent;
+	border: 4px solid white;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 30px 875px;
+	cursor: pointer;
+}
+.btn:HOVER{
+	background-color: #b1b0ce;
+		color: #ffffff;
+	
+}
+.pizza img{
+	position: absolute;
+	width: 30%;
+	margin-top: 0%;
+}	

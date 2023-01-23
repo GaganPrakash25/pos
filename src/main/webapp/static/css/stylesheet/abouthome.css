@@ -1,0 +1,45 @@
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+.logo img{
+margin-top: -4%
+}
+.pizza img{
+	position: relative;
+	margin-top: 4%;
+	left: 0%
+}
+.phone img{
+	position: relative;
+	left: 48.70%;
+	margin-top: -28%;
+	height: 5%
+}
+.location img{
+	position: relative;
+	left: 48%;
+	margin-top: 1%;
+	height: 10%
+}
+.time img{
+	position: relative;
+	margin-top: 1%;
+	height: 8%;
+	left: 48%
+}
+.btn{
+	background-color: transparent;
+	border: 3px solid white;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 30px 875px;
+	cursor: pointer;
+}
